@@ -5,10 +5,10 @@ class Rprompt < Formula
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://github.com/notzree/rprompt/releases/download/v0.1.0/rprompt-darwin-arm64.tar.gz"
-    sha256 "8276126b118726e8a6da99a10832e43721d4ef2564fd8d019f0732fddfb5eb92"
+    sha256 "058f00da84f4624f4656a920df0d1f48a3cfec8c181c86b5ea2805afbab4acb1"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://github.com/notzree/rprompt/releases/download/v0.1.0/rprompt-darwin-amd64.tar.gz"
-    sha256 "87a572eb952bf50fa7d3dd4a5df8266e26e9d13d807220ce6e69d7822ccdbbdf"
+    sha256 "ab4dfcb1df0d3c6fb19ffc22dd8f0960d8faa7714f378c1769b122bfdd4dc10e"
   end
 
   def install
