@@ -4,11 +4,11 @@ class Rprompt < Formula
   version "0.1.0" # Update this with your actual version
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/notzree/rprompt/releases/download/v0.1.1/rprompt-darwin-arm64.tar.gz"
-    sha256 "058f00da84f4624f4656a920df0d1f48a3cfec8c181c86b5ea2805afbab4acb1"
+    url "https://github.com/notzree/rprompt/releases/download/v0.1.2/rprompt-darwin-arm64.tar.gz"
+    sha256 "7c5db8e41c59d465dd9cd4bef2aef87fa1bf5e1e6b4321daf374c7bcee9bb85e"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/notzree/rprompt/releases/download/v0.1.1/rprompt-darwin-amd64.tar.gz"
-    sha256 "ab4dfcb1df0d3c6fb19ffc22dd8f0960d8faa7714f378c1769b122bfdd4dc10e"
+    url "https://github.com/notzree/rprompt/releases/download/v0.1.2/rprompt-darwin-amd64.tar.gz"
+    sha256 "a07b629a00ef8482ea29878eac139c376c4c888eabe12785b52165fea7cd5d04"
   end
 
   def install
